@@ -1,0 +1,8 @@
+FUNCTION palindrome(tab:INTEGER,i:INTEGER,a:BOOLEAN) 
+
+BEGIN
+  IF(tab[i]=tab[i-1])then
+  RETURN true ;
+  ELSE 
+  RETURN tab[i-1]
+END
